@@ -4,11 +4,12 @@ import time
 
 def mouseketool():
 	mouse=Controller()
-	i = random.randint(100, 1000)
-	j = random.randint(100, 1000)
-	mouse.position =(500, 500)
-	mouse.move(i,j)
-	print(time.ctime())
+	i = random.randint(100, 800)
+	j = random.randint(100, 500)
+	mouse.position =(i, j)
+	#print(time.ctime())
+	#print(x)
+	#print(y)
 
 def main():
 	while True:
